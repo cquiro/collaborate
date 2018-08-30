@@ -5,7 +5,10 @@
 @import 'rails_bootstrap_forms';
 
 // Variables
-@import 'base/*';
+@import 'base/variables';
+
+// Default styles
+@import 'base/default';
 
 // Partials - main css
 @import 'partials/*';
