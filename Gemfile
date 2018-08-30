@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails', '~> 4.3.3'
 gem 'bootstrap', '~> 4.1.3'
+gem "bootstrap_form", ">= 4.0.0.alpha1"
 gem 'devise', '~> 4.5.0'
 
 group :development, :test do
