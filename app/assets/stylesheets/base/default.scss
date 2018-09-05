@@ -22,6 +22,16 @@ ul {
   list-style-type: none;
 }
 
-a:hover, a:active, a:link, a:visited {
-  text-decoration: none;
+a {
+  color: white;
+  &:hover {
+    color: $backgroundColor;
+  }
+  &:hover, &:active, &:link, &:visited {
+    text-decoration: none;
+  }
+}
+
+.row {
+  flex-grow: 1;
 }
