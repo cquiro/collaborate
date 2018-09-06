@@ -29,5 +29,8 @@ module Collaborate
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Don't include all helpers everywhere
+    config.action_controller.include_all_helpers = false
   end
 end
